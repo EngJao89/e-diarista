@@ -7,7 +7,7 @@ import {
   RatingStyled,
 } from "./UserInformation.styles";
 
-interface UserInformationProps{
+interface UserInformationProps {
   picture: string;
   name: string;
   rating: number;
@@ -22,11 +22,11 @@ const UserInformation: React.FC<UserInformationProps> = ({
 }) => {
   return (
     <UserInformationContainer>
-      <AvatarStyled src={picture} >{name[0]}</AvatarStyled>
+      <AvatarStyled src={picture}>{name[0]}</AvatarStyled>
       <UserName>{name}</UserName>
       <RatingStyled readOnly value={rating} />
       <UserDescription>{description}</UserDescription>
-    </UserInformationContainer>
+    1</UserInformationContainer>
   );
 };
 
